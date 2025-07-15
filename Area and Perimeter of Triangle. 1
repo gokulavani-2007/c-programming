@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+    {
+    int base,height,side1,side2,side3;
+    float Area,Perimeter;
+    scanf("%d",&base);
+    scanf("%d",&height);
+    scanf("%d",&side1);
+    scanf("%d",&side2);
+    scanf("%d",&side3);
+    Area=(0.5)*base*height;
+    Perimeter=side1+side2+side3;
+    printf("Area of Triangle is %.2f\n",Area);
+    printf("Perimeter of Triangle is %.2f\n",Perimeter);
+   return 0;
+}
